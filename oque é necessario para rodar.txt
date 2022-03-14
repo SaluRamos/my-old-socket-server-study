@@ -1,0 +1,11 @@
+1 - estar fora da regra cgnat (nat44) na sua provedora
+2 - possuir noip válido linkado ao seu ip dinamico
+3 - configurar 'redirecionamento de portas'/'servidor virtual' no roteador para
+seu ip local (ex. 192.168.0.xxx) com a porta a ser utilizada
+4 - configure também no roteador.
+reservar no DHCP  um ip fixo para um MAC address
+4- executar a aplicação
+
+obs: não há necessidade de executar como administrador,
+fechar ou desativar antivírus ou usar cabo de rede
+ethernet.

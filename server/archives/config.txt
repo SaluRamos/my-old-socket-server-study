@@ -1,0 +1,10 @@
+ip;0.0.0.0;
+port;27383;
+server_name;A NAME;
+total_request_solvers;2;
+base_command_user;server;
+base_command_password;GCIPjgwMfI$4%*fxKnIw;
+duc_path;F:\Programas\No-IP\DUC40.exe;
+new_version_download_link;dropbox.com;
+notification;notificao1;notificacao2;notificacao3;
+auto_restart_time;00-00-00;
