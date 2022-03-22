@@ -5,7 +5,7 @@ from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.keys import Keys
 import threading
 #my libs
-from scripts.Variables import *
+from scripts.Variables import Variables
 
 class WhatsApp:
 

@@ -6,7 +6,7 @@ import math
 #timer = Timer(bool_high_precision = True, precision = 0.01, max_time = 5, timer_name = "ReadIndex")
 #timer.start()
 #timer.ReturnCounter(print_or_not = True, return_or_not = False)
-class Timer (threading.Thread):
+class Timer(threading.Thread):
 
     finish_timer = False
     counter = 0.0
@@ -23,7 +23,7 @@ class Timer (threading.Thread):
         threading.Thread.__init__(self)
         self.event = threading.Event()
         
-    def run (self):
+    def run(self):
         while (Timer.finish_timer == False):
             time.sleep(Timer.precision)
             if(Timer.high_precision == True):
@@ -34,7 +34,7 @@ class Timer (threading.Thread):
                 Timer.ReturnCounter(self, False)
                 break
     
-    def ReturnCounter (self, print_or_not = False, return_or_not = True):
+    def ReturnCounter(self, print_or_not = False, return_or_not = True):
         Timer.finish_timer = True
         time.sleep(0.1)
         if(print_or_not == True):

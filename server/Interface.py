@@ -4,13 +4,14 @@ import sys
 from tkinter import *
 import threading
 import time
-#my libs
 import subprocess
-from scripts.Variables import *
-from scripts.Solver import *
-from scripts.Server import *
-from scripts.Clock import *
-#from scripts.TokenGenerator import *
+#my libs
+from scripts.Variables import Variables
+from scripts.Solver import Solver
+from scripts.Server import Server
+from scripts.Clock import Clock
+from scripts.BinaryTree import BinaryTree
+from scripts.TokenGenerator import TokenGenerator
 
 class Interface:
     
@@ -78,6 +79,5 @@ Variables.root.iconbitmap(r"archives/icon.ico")
 Variables.root.title("ALWAYS RUN SERVER - " + Variables.server_dns + " - " + Variables.game_version)
 Variables.canvas.place(x = 0, y = 0)
 Interface.Core()
-#from scripts.BinaryTree import *
 threading.Thread(target = Clock.TheClock, daemon = True).start()
 Variables.root.mainloop()

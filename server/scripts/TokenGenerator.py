@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import random
-from scripts.TimeClass import *
+from scripts.TimeClass import TimeClass
 
 class TokenGenerator:
     

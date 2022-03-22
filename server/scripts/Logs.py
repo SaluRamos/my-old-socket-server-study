@@ -1,7 +1,7 @@
 #my libs
-from scripts.Variables import *
-from scripts.TimeClass import *
-from scripts.FileManipulator import *
+from scripts.Variables import Variables
+from scripts.TimeClass import TimeClass
+from scripts.FileManipulator import FileManipulator
 
 class Logs:
 

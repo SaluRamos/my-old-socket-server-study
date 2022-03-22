@@ -1,4 +1,4 @@
-from scripts.TimeClass import *
+from scripts.TimeClass import TimeClass
 
 class Database:
     player = {

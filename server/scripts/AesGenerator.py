@@ -1,5 +1,5 @@
 from Crypto.Cipher import AES
-from TokenGenerator import *
+from TokenGenerator import TokenGenerator
 
 class AesGenerator:
 

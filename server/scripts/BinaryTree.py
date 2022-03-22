@@ -1,7 +1,4 @@
-#other libs
 
-#my libs
-from scripts.TimeClass import *
 
 class BinaryTree:
 

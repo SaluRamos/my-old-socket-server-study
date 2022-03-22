@@ -1,10 +1,11 @@
 #other libs
 import socket
 import threading
+import time
 #my libs
-from scripts.Variables import *
-from scripts.Logs import *
-from scripts.Solver import *
+from scripts.Variables import Variables
+from scripts.Logs import Logs
+from scripts.Solver import Solver
 
 class Server:
 

@@ -2,14 +2,14 @@
 import time
 import threading
 #my libs
-from scripts.Variables import *
-from scripts.Logs import *
-from scripts.TimeClass import *
-from scripts.Server import *
+from scripts.Variables import Variables
+from scripts.Logs import Logs
+from scripts.TimeClass import TimeClass
+from scripts.Server import Server
 
 class Clock:
 
-    def TheClock ():
+    def TheClock():
         while(True):
             Variables.config_lines = open(r"archives/config.txt", "r").readlines()
             #auto restart
