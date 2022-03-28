@@ -2,4 +2,3 @@ mercadopago==2.0.10
 rsa==4.8
 uuid==1.30
 argon2-cffi==21.3.0
-selenium==4.1.3

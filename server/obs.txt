@@ -1,1 +1,0 @@
-'chrome_driver_data/profile/' precisa ser configurado para que o pacote 'selenium' utilize corretamente o script 'whatsapp.py'

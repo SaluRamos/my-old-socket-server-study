@@ -1,4 +1,5 @@
-este projeto foi interrompido pela metade, trata-se de um estudo sobre criptografia simétrica e assimétrica, sockets, whatsapp bot, api mercadopago, banco de dados<br /> (binary tree), entre outras idéias que surgiram durante o desenvolvimento como 'TokenGenerator.py'...<br />
+este projeto foi interrompido pela metade, trata-se de um estudo sobre criptografia simétrica e assimétrica, sockets, api mercadopago, banco de dados<br /> 
+(binary tree), entre outras idéias que surgiram durante o desenvolvimento como 'TokenGenerator.py'...<br />
 <br />
 Oque é necessario para rodar?<br />
 <br />
